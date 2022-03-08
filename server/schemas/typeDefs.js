@@ -25,12 +25,15 @@ const typeDefs = gql `
         user: User
     }
 
+    type Query {
+        me: User
+    }
 
 
 `;
 
 // Querys:
-    // 
+    // query user and populate books
 
 // Mutations
     // login
