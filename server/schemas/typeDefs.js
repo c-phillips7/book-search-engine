@@ -20,9 +20,22 @@ const typeDefs = gql `
         link: String
     }
 
+    type Auth {
+        token: ID!
+        user: User
+    }
 
 
 
 `;
+
+// Querys:
+    // 
+
+// Mutations
+    // login
+    // add new user
+    // save book
+    // remove book
 
 module.exports = typeDefs
